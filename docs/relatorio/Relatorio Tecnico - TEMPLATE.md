@@ -1,21 +1,30 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`O que assistir`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nesse projetos buscamos realizar um software que facilita a escolha de filmes ou séries de forma que diminua a indecisão das pessoas na hora da escolha.Com o software as pessoas vão ter recomendações de uma maneira mais precisa e conhecer séries e filmes que serião difícil de conhecer sem o software.
 
-`CURSO` 
+`Engenharia de software` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Curso que ajuda na formação de um profissional muito mais completo e que possa atuar em várias áreas em que um software pode abordar. 
 
-## Participantes
+# Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+* Ancine
+* IMDb
+* Rotten tomatoes
+* Atores
+* Diretores 
+* Produtores
+* Plataformas de streaming
+* Pessoas que consomem entreterimento online
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+## Os membros do grupo são: 
+* José Miguel Quintão Magalhães
+* Lucas Perlatto Lotti Garcia
+* Marcelo Aguilar Araújo Dalmeida
+* Marcus Viniccius Souza de Freitas
+* Samuel Marques Sousa Leal
+* Victor Ricci Perlatto
 
 # Estrutura do Documento
 
@@ -53,10 +62,29 @@
 
 
 # Introdução
+Atualmente existem diversas plataformas streaming com uma quantidade enorme de opções para as pessoas assistirem, mas muitas vezes esse excesso de opções em conjunto com a escassez de indicações resulta em um mal aproveitamento da quantidade de opções e, além disso, como falta indicações muitas vezes as pessoas não tem o que assistir.
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Pessoas com dificuldade em escolher o que assistir nas horas vagas, nesse contexto abordamos principalmente pessoas que possuem plataformas straming mas que ficam horas para escolher um filme ou uma série e muitas vezes acabam sem escolher e frustados.
+
+## Objetivos
+
+* Mostrar filmes ou séries com base nos atores/atrizes que estão neles.
+* Mostrar filmes ou séries com base em seu gênero.
+* Em cada filme mostrar suas avaliações.
+* Mostrar a plataforma em que estão as séries e filmes.
+* Mostrar a sinopse das séries e filmes.
+* Mostrar Avaliações de críticos.
+* Mostrar indicações que fazem sucesso.
+
+## Justificativa
+
+Nas entrevistas que fizemos foi notório como a falta de indicações fazem falta na hora de escolher um filme ou uma série, muitas vezes as pessoas ficam horas tentando escolher um filme ou uma série, isso faz com que fiquem extremamente frustradas e desistindo ou escolhendo um filme ou série ruim que nem terminam de assistir.
+
+## Público Alvo
+
+Nosso público alvo são pessoas que assinam plataformas streaming e que assistem pelo menos uma hora por dia de filme ou série.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
