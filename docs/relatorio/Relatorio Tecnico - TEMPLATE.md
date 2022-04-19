@@ -158,21 +158,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+> Fluxo de usuário (User Flow) do nosso App, no qual o usuário tem que efetuar o login caso nao tenha uma conta cadastrar-se.
+> Após logar o usuário pode escolher entre temas na página Home, como plataformas de streaming e lançamentos.
+> O usuário pode pesquisar por atores ou filmes  na nossa aba de pesquisa, alem de abrir mais informações sobre o filme escolhido.
+>
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
+> **Userflow do App**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+> ![Userflow](images/Userflow.png)
 
 
 ## Wireframes
@@ -199,7 +192,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-Para a divisão de papeis iremos utilizar o projetc dentro do git hub, pois ele auxilia na metodologia ágil scrum.
+Para a divisão de papeis iremos utilizar o project dentro do git hub, pois ele auxilia na metodologia ágil scrum.
 Dentro dele temos :
 * product backlog para as tarefas que irão ser realizadas durante a todo o trabalho.
 * sprint backlog para as tarefas que irão ser realizadas durante a todo a sprint.
