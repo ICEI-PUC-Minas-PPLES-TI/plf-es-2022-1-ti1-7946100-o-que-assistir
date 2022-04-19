@@ -51,11 +51,11 @@ Curso que ajuda na formação de um profissional muito mais completo e que possa
 
 
 # Introdução
-Atualmente existem diversas plataformas streaming com uma quantidade enorme de opções para as pessoas assistirem, mas muitas vezes esse excesso de opções em conjunto com a escassez de indicações resulta em um mal aproveitamento da quantidade de opções e, além disso, como falta indicações muitas vezes as pessoas não tem o que assistir.
+  Atualmente existem diversas plataformas streaming com uma quantidade enorme de filmes e séries para as pessoas assistirem. Muitas vezes há um excesso de opções em conjunto com a escassez de indicações, que resulta em uma dúvida do que assistir. Com isso, há um mal aproveitamento da quantidade de conteúdo, e com a falta de indicações, muitas vezes, os usúarios não assistem nada.
 
 ## Problema
 
-Pessoas com dificuldade em escolher o que assistir nas horas vagas, nesse contexto abordamos principalmente pessoas que possuem plataformas straming mas que ficam horas para escolher um filme ou uma série e muitas vezes acabam sem escolher e frustados.
+  As pessoas tem dificuldade em escolher o que assistir nas platoformas de streaming. Nesse contexto abordamos principalmente pessoas que possuem plataformas de streaming, más que ficam horas para escolher um filme ou uma série, e muitas vezes acabam sem assistir nada e consequentemente ficam frustados.
 
 ## Objetivos
 
@@ -69,7 +69,7 @@ Pessoas com dificuldade em escolher o que assistir nas horas vagas, nesse contex
 
 ## Justificativa
 
-Nas entrevistas que fizemos foi notório como a falta de indicações fazem falta na hora de escolher um filme ou uma série, muitas vezes as pessoas ficam horas tentando escolher um filme ou uma série, isso faz com que fiquem extremamente frustradas e desistindo ou escolhendo um filme ou série ruim que nem terminam de assistir.
+  Nas entrevistas que fizemos, foi notório como a falta de indicações fazem falta na hora de escolher um filme ou uma série para assistir. Muitas vezes, as pessoas ficam horas tentando escolher um filme ou uma série, isso faz com que fiquem extremamente frustradas, desistam ou escolham um filme ou uma série ruim, que nem terminam de assistir.
 
 ## Stakeholders
 
@@ -80,13 +80,13 @@ Nas entrevistas que fizemos foi notório como a falta de indicações fazem falt
 * Diretores 
 * Produtores
 * Plataformas de streaming
-* Pessoas que consomem entreterimento online
+* Pessoas que consomem entretenimento online
 
 # Especificações do Projeto
 
-Projeto utilizando as linguagens html, css e javascript.
-A tecnologia bootstrap.
-Estamos utilizando a metodologia ágil scrum e para a confecção do planejamento foi utilizando o design thinking.
+  Projeto utilizando as linguagens html, css e javascript.
+  A tecnologia bootstrap.
+  Estamos utilizando a metodologia ágil scrum e para a confecção do planejamento foi utilizando o design thinking.
 
 # Personas e Mapas de Empatia
 
@@ -104,7 +104,7 @@ Estamos utilizando a metodologia ágil scrum e para a confecção do planejament
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+  Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                     |
 |--------------------|-------------------------------------|--------------------------------------------|
@@ -115,7 +115,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+  As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
@@ -138,7 +138,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+  O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
@@ -151,17 +151,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Introdução 
 
-Desenvolmes uma interface simples e intuitiva afim de facilitar a utilização do usuário que deseja receber uma sugestão do que assister quando estiver em dúvida, além disso o usuário pode ser notificado com novos lançamentos de filmes com temas que ele goste. Apoes a nossa pesquisa, validamos a dor das pessoas, de sempre terem duvida do que assistir e não ter um lugar para buscar dicas.Muitos usuários usam avaliações ou atores para a escolha do filme.
+  Desenvolveremos uma interface simples e intuitiva afim de facilitar a utilização do usuário que deseja receber uma sugestão do que assister quando estiver em dúvida. Além disso o usuário pode ser notificado com novos lançamentos de filmes, com os temas que ele goste. Após a nossa pesquisa, validamos a dor das pessoas, de sempre terem dúvida do que assistir e não ter um lugar para buscar indicações. Muitos usuários usam avaliações ou atores para a escolha do que assistir.
 
 Requisitos Funciuonais:
-realizar buscas ou pesquisas de filmes, ator, genero.
-Realizar loguin
-Filmes separados por temas     //
+  Realizar buscas ou pesquisas de filmes, ator, séries, gênero;
+  Realizar login;
+  Filmes separados por gênero.    //
 
 Requisitos não funcionais:
-Velocidade de resposta de busca,
-Disponibilidade,
-interface
+  Velocidade de resposta de busca;
+  Disponibilidade;
+  Interface.
 
 
 
@@ -190,12 +190,12 @@ interface
 
 ## Divisão de Papéis
 
-Para a divisão de papeis iremos utilizar o project dentro do git hub, pois ele auxilia na metodologia ágil scrum.
-Dentro dele temos :
-* product backlog para as tarefas que irão ser realizadas durante a todo o trabalho.
-* sprint backlog para as tarefas que irão ser realizadas durante a todo a sprint.
-* doing para as tarefas que estão sendo feitas, com o respectivo responsável.
-* done para as tarefas feitas.
+  Para a divisão de papeis iremos utilizar o project dentro do git hub, pois ele auxilia na metodologia ágil scrum.
+Dentro dele temos:
+* Product backlog para as tarefas que irão ser realizadas durante a todo o trabalho.
+* Sprint backlog para as tarefas que irão ser realizadas durante a todo a sprint.
+* Doing para as tarefas que estão sendo feitas, com o respectivo responsável.
+* Done para as tarefas feitas.
 
 
 ## Ferramentas
@@ -215,14 +215,14 @@ Para publicar o site estamos usando o github pages já que é uma ferramenta que
 ## Controle de Versão
 
 ### Nome de branchs:
-* master : versão estável já testada do software;
-* dev: versão de desenvolvimento do software .
-* feature : versão em testes do software.
+* Master : versão estável já testada do software;
+* Dev: versão de desenvolvimento do software .
+* Feature : versão em testes do software.
       
 ### Para a gerência das issue vamos utilizar:
-* feature para nova mudança introduzida;
-* bug para correção de bugs;
-* documentation para mudanças na documentação.
+* Feature para nova mudança introduzida;
+* Bug para correção de bugs;
+* Documentation para mudanças na documentação.
          
 ![image](https://user-images.githubusercontent.com/44738000/163913777-6dca5f88-6b23-48b6-aa8a-b5ca40c4b81a.png)
 >
