@@ -84,59 +84,34 @@ Nas entrevistas que fizemos foi notório como a falta de indicações fazem falt
 
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Projeto utilizando as linguagens html, css e javascript.
+A tecnologia bootstrap.
+Estamos utilizando a metodologia ágil scrum e para a confecção do planejamento foi utilizando o design thinking.
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+# Personas e Mapas de Empatia
 
-## Personas e Mapas de Empatia
+## Personas
+![image](https://user-images.githubusercontent.com/44738000/163896352-e445d483-3809-4355-bdbb-111152f21c55.png)
+![image](https://user-images.githubusercontent.com/44738000/163896551-ef582327-d68c-4e88-bda3-15df9260ad38.png)
+![image](https://user-images.githubusercontent.com/44738000/163896623-71beb43d-d119-4198-9745-8abc7a4c4c15.png)
 
-......  COLOQUE AQUI O SEU TEXTO ......
+## Mapas de Empatia
+![image](https://user-images.githubusercontent.com/44738000/163896719-27e63f1b-aacd-4652-a467-f0172b27b751.png)
+![image](https://user-images.githubusercontent.com/44738000/163896749-61fe540c-c1a2-4ac5-8d2a-140b8714f12b.png)
+![image](https://user-images.githubusercontent.com/44738000/163896777-b29d893c-b7c7-4083-8c07-a1d779386091.png)
 
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`  |PARA ... `MOTIVO/VALOR`                     |
+|--------------------|-------------------------------------|--------------------------------------------|
+|Usuário do sistema  | Achar filmes pelo número de estrelas| Ver o que é bem avaliado                   |
+|Usuário do sistema  | Achar filmes pelo gênero            | Ver filmes diferentes com o gênero favorito|
+|Usuário do sistema  | Achar filmes pelo ator              | Ver filmes diferentes com o ator favorito  |
+|Usuário do sistema  | Achar indicação profissional        | Um olhar especializado para séries         |
 
 ## Requisitos
 
@@ -146,8 +121,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário procure filmes   |  ALTA | 
+|RF-002| Cadastro de indicações por críticos profissionais  | MÉDIA |
+|RF-003| Cadastro de indicações por c  | MÉDIA |
 
 
 ### Requisitos não Funcionais
