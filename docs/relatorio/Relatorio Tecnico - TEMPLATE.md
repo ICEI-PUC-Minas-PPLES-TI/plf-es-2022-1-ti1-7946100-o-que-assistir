@@ -149,14 +149,23 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+## Introdução 
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Desenvolmes uma interface simples e intuitiva afim de facilitar a utilização do usuário que deseja receber uma sugestão do que assister quando estiver em dúvida, além disso o usuário pode ser notificado com novos lançamentos de filmes com temas que ele goste. Apoes a nossa pesquisa, validamos a dor das pessoas, de sempre terem duvida do que assistir e não ter um lugar para buscar dicas.Muitos usuários usam avaliações ou atores para a escolha do filme.
 
-## User Flow
+Requisitos Funciuonais:
+realizar buscas ou pesquisas de filmes, ator, genero.
+Realizar loguin
+Filmes separados por temas     //
+
+Requisitos não funcionais:
+Velocidade de resposta de busca,
+Disponibilidade,
+interface
+
+
+
+## UserFlow
 
 > Fluxo de usuário (User Flow) do nosso App, no qual o usuário tem que efetuar o login caso nao tenha uma conta cadastrar-se.
 > Após logar o usuário pode escolher entre temas na página Home, como plataformas de streaming e lançamentos.
@@ -169,8 +178,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Wireframes
-
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
 > Wireframe do nosso projeto de filmes.
 > 
