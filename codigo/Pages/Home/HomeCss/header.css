@@ -1,0 +1,33 @@
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: rgb(27, 27, 27);
+}
+
+.header-item {
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.header__button{
+    background-color: rgb(224, 77, 77);
+    padding: 5px 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.header__button--entrar{
+    margin-right: 3rem;
+}
+
