@@ -117,6 +117,11 @@
     .featured--genres {
         font-size: 14px;
     }
+
+    .movieList--left,
+    .movieList--right {
+        opacity: 1;
+    }
 }
 
 .movieList {
@@ -159,3 +164,37 @@
     transform: scale(1);
 }
 
+.movieList--left,
+.movieList--right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+
+
+.movieList--left {
+    left: 0;
+}
+
+.movieList--right {
+    right: 0;
+}
+
+.movieList:hover .movieList--left,
+.movieList:hover .movieList--right {
+    opacity: 1;
+}
+
+.fa-solid {
+    font-size: 1000px;
+}
