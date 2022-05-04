@@ -23,7 +23,7 @@ let dados = {
 
 function addUser(login, senha, nome, email){
   let usuarioPegar = JSON.parse(localStorage.getItem('usuarios'));
-  if(login === undefined || senha === undefined || nome === undefined || email === undefined){
+  if(login === '' || senha === '' || nome === '' || email === '' ){
     alert('erro faltando informações para cadastro');
   }else{
     
@@ -39,29 +39,29 @@ function addUser(login, senha, nome, email){
       usuarioExistente.usuarios.push(newUsuario);
       
       localStorage.setItem('usuarios',JSON.stringify(usuarioExistente)); 
+      alert('usuário cadastrado com sucesso');
   }
 }
 
-function pickUpUser(login, senha){
+function pickUpUser(login){
   let usuarioPegar = JSON.parse(localStorage.getItem('usuarios'));
   
   let userPick = usuarioPegar.usuarios.filter((valor) =>{
-      return valor.login === login && valor.senha === senha
+      return valor.login === login
     })  
 
   return userPick;
 }
 
-function changeUser(loginAtual, senhaAtual,login, senha, nome, email){
+function changeUser(loginAtual, login, senha, nome, email){
   let usuarioMudar = JSON.parse(localStorage.getItem('usuarios'));
-
 
   usuarioMudar.usuarios.forEach((valor) =>{
     let loginFinal = (login == undefined) ?  valor.login : login;
     let senhaFinal = (senha == undefined) ? valor.senha : senha;
     let nomeFinal = (nome == undefined) ? valor.nome : nome;
     let emailFinal = (email == undefined) ? valor.email : email;
-    if(valor.login === loginAtual && valor.senha === senhaAtual){
+    if(valor.login === loginAtual ){
       console.log(valor.email);
       valor.login = loginFinal;
       valor.senha = senhaFinal;
@@ -70,10 +70,11 @@ function changeUser(loginAtual, senhaAtual,login, senha, nome, email){
     }
   })
   
+  
   localStorage.setItem('usuarios', JSON.stringify(usuarioMudar));
 }
 
-function deleteUser(login, senha){
+function deleteUser(login){
   let usuarioDeletar = JSON.parse(localStorage.getItem('usuarios'));
 
   for(let i = 0; i < usuarioDeletar.usuarios.length; i++){
