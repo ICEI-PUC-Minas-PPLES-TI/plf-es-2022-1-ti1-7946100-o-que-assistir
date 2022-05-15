@@ -34,16 +34,6 @@
     border-radius: 5px;
     padding: 5px;
   }
-  #data-table{
-    display: flex;
-    justify-content: center;
-  }
-  #usuarios_wrapper{
-    width: 80vw;
-  }
-  #data-table{
-    background-color: #999;
-  }
   .senha-blur{
     filter: blur(0.2rem);
   }
@@ -86,21 +76,26 @@
   }
 
   input{
-    /* To make sure that all text fields have the same font settings
-      By default, textareas have a monospace font */
     font: 1em sans-serif;
     box-sizing: border-box;
-    /* Match form field borders */
     border: 1px solid #999;
   }
 
   input:focus{
-    /* Additional highlight for focused elements */
     border-color: #000;
   }
+
   table{
     background-color: #999;
   }
+
+  #usuarios_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
 </style>
 <body onload="init()">
   <div id="div-body">
@@ -137,8 +132,7 @@
       <button onclick="changeUserIndex()">Mudar</button>
     </div>
   </div>
-  <div id="data-table">
-    <table id="usuarios" class="display">
+    <table id="usuarios" class="display" class="stripe">
       <thead>
         <tr>
           <th> Nome </th>
@@ -150,10 +144,10 @@
       <tbody id="content">
       </tbody> 
     </table>  
-  </div>
   <script src="./crud.js"></script>
 </body>
 <script>
+
     let button = $('#sumbit');
     let input = $('input');
 
@@ -182,7 +176,13 @@
         }else{
           exibeContatos()
           $(document).ready( function () {
-              $('#usuarios').DataTable();
+              $('#usuarios').DataTable({
+                "lengthMenu": [ 5],
+                "bLengthChange": false, 
+                info: false,
+                responsive: true,
+                "searching": false
+              });
           } );
         }
     }
