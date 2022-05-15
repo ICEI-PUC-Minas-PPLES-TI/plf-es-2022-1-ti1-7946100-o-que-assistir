@@ -171,7 +171,13 @@
             localStorage.setItem('usuarios', JSON.stringify(dados));
             exibeContatos()
             $(document).ready( function () {
-                $('#usuarios').DataTable();
+                $('#usuarios').DataTable({
+                "lengthMenu": [ 5],
+                "bLengthChange": false, 
+                info: false,
+                responsive: true,
+                "searching": false
+              });
             } );
         }else{
           exibeContatos()
