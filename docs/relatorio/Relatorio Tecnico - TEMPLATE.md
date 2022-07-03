@@ -230,49 +230,27 @@ Para publicar o site estamos usando o github pages já que é uma ferramenta que
 >
 > ![Exemplo de Wireframe](images/workflow.png)
 
-# **############## SPRINT 1 ACABA AQUI #############**
 
-
-# Projeto da Solução
-
-......  COLOQUE AQUI O SEU TEXTO ......
+# Projeto da Solução 
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Nesse projeto foi utilizado html, css e bootstrap para fazer a marcação e estilização da página e javascript, jquery e bootstrap para fazer a dinamicidade da aplicação. Para fazer a requisição de api foi utilizada o fetch e para guardar informações foi utilizado o localStorage.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+Foi utilizado sessionStorage para autenticação, localStorage para salvar dados. A hospedagem foi o vercel e a aplicação consome a api  do themoviedb.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+![image](https://user-images.githubusercontent.com/44738000/177058116-38787778-6cf0-4ee9-8e6c-33dc398c8543.png)
 
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+- Logar no site
+![image](https://user-images.githubusercontent.com/44738000/177058363-1d85100e-296a-41d2-891e-3355c96bc599.png)
+- Cadastro de usuário
+![image](https://user-images.githubusercontent.com/44738000/177058441-1e41df47-8c6c-4624-b5d4-ba196a712bdf.png)
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
 
 ## Plano de Testes
 
@@ -288,15 +266,6 @@ Para publicar o site estamos usando o github pages já que é uma ferramenta que
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
