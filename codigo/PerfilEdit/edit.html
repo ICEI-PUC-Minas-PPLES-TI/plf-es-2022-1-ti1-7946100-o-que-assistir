@@ -37,7 +37,7 @@
                     <input type="password" name="edit_senha2" id="edit_senha2" class="form-control">
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cancelButton">Cancelar</button>
                     <button type="button" id="btn_salvar2" class="btn botao">Salvar</button>
                 </div>
             </form>
@@ -72,6 +72,10 @@
             //document.getElementById ('loginModal').style.display = 'none';
             
             cont++;
+        }
+        document.getElementById("cancelButton").onclick = (e) =>{
+            e.preventDefault();
+            window.location.href = "../home.html";
         }
         // Associar salvamento ao botao
         document.getElementById ('btn_salvar2').addEventListener ('click', editaLogin);   
