@@ -250,32 +250,30 @@ Foi utilizado sessionStorage para autenticação, localStorage para salvar dados
 ![image](https://user-images.githubusercontent.com/44738000/177058363-1d85100e-296a-41d2-891e-3355c96bc599.png)
 - Cadastro de usuário
 ![image](https://user-images.githubusercontent.com/44738000/177058441-1e41df47-8c6c-4624-b5d4-ba196a712bdf.png)
-
+- Editar usuário
+![image](https://user-images.githubusercontent.com/44738000/177058900-e9d7cb30-ff7e-450f-ade1-3a526a030154.png)
+- Mostrar página de detalhes
+![image](https://user-images.githubusercontent.com/44738000/177058943-d78e5af2-81a8-4f81-9d5c-e0a28cb86eb3.png)
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Teste 1 :
+- Testar a funcionalidade de login
+![image](https://user-images.githubusercontent.com/44738000/177059007-df475517-fc57-4fe0-9542-a959705f0768.png)
+### Teste 2:
+- Testar funcionalidade de cadastro
+![image](https://user-images.githubusercontent.com/44738000/177059078-a7f089e6-79a6-4e06-8730-e36bc2233077.png)
+### Teste 3:
+- Testar funcionalidade de editar usuário
+![image](https://user-images.githubusercontent.com/44738000/177059096-e7e4e16c-bd46-46cb-a8ad-16d2ef3c688c.png)
+### Teste 4:
+- Testar funcionalidade de mostrar página de detalhes
+![image](https://user-images.githubusercontent.com/44738000/177059102-4d8dfa87-95a7-4927-89f9-457c440aa7af.png)
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 
 ## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
+Foram testadas todas as telas, os pontos que tiveram mais vulnerabilidades foram os de funções de butões, intarações com o armazenamento na hora de fazer o crud do site e quanto a responsividade. Com isso, foi possível descobrir as vulnerabilidades e corrigí-las. 
 
 # Referências
 
