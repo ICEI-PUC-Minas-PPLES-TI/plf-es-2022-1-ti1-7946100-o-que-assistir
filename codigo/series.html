@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/global.css">
+    <link rel="stylesheet" href="./HomeCss/header.css">
+    <link rel="stylesheet" href="./HomeCss/main.css">
+    <link rel="stylesheet" href="./HomeCss/footer.css">
+    <title>WhatWatch</title>
+
+    <script src="./scripts/login.js"></script>
+    <script src="./PerfilEdit/edit.js"></script>
+
+    <script>
+        // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login        
+        if (!usuarioCorrente.login) {
+            window.location.href = LOGIN_URL;
+        }
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+            document.getElementById('btn_editar').addEventListener('click', () => window.location.href = CHANGE_URL);
+            // Informa o nome do usuário logado
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="flex">
+            <nav class="nav__header">
+                <a class="header-item hide" href="./home.html">WhatWatch</a>
+                <a class="header-item hide" href="#"><b class="bold">Séries</b></a>
+            </nav>
+        </div>
+        <div class="container">
+            <form id="form2">
+                <input type="text" placeholder="Pesquisar" id="search" class="search">
+            </form>
+            <button class="header__button header__button--cadastrar hide" id="btn_editar">
+                Editar
+            </button>
+            <button class="header__button header__button--entrar hide" id="btn_logout">
+                Sair
+            </button>
+        </div>
+    </header>
+    <div id="main"></div>
+    <main >
+        <h1 class="seriestitle">Séries</h1>
+        <section id="mainSeries">
+
+        </section>
+    </main>    
+    <footer class="footer">
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./scripts/scriptSeries.js"></script>
+    
+    
+</body>
+</html>
