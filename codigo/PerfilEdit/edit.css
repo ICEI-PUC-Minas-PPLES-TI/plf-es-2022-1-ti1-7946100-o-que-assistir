@@ -1,0 +1,42 @@
+.cor{
+  background-color: rgb(10, 10, 10);
+}
+
+.cor-texto{
+  color: white;
+}
+.botao{
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.botao:hover{
+  background-color: rgb(202, 202, 202);
+}
+
+.caixa{
+  background-color: #222;
+  margin: 10% 5%;
+  border-radius: 15px;
+  padding-bottom: 30px;
+
+}
+
+@media screen and (min-width: 980px) {
+  .caixa{
+    background-color: #222;
+    margin: 10% 25%;
+    border-radius: 15px;
+    padding-bottom: 30px;
+  
+  }
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.center{
+  margin: 0 auto;
+}

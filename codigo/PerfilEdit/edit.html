@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+    <link rel="stylesheet" href="edit.css">
+</head>
+
+<body class="cor">
+    
+	<div id="login" class="caixa">
+		<div id="edit-box" class="col-md-12">
+            <form id="edit-form" class="form" method="post" onsubmit="loginUser (this)">
+                <h3 class="text-center cor-texto padding-top">Editar Perfil</h3>
+                <div class="form-group">
+                    <label for="login" class="cor-texto">Novo nome de Usuário</label><br>
+                    <input type="text" name="edit_login" id="edit_login" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="nome" class="cor-texto">Novo nome</label><br>
+                    <input type="text" name="edit_nome" id="edit_nome" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="cor-texto">E-mail</label><br>
+                    <input type="text" name="edit_email" id="edit_email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="senha" class="cor-texto">Nova Senha</label><br>
+                    <input type="password" name="edit_senha" id="edit_senha" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="senha2" class="cor-texto">Confirmar nova Senha</label><br>
+                    <input type="password" name="edit_senha2" id="edit_senha2" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" id="btn_salvar2" class="btn botao">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>    
+
+    <script src="../login.js"></script>
+    <script src="edit.js"></script>
+    <script>
+        function editaLogin (event) {
+            // Cancela a submissão do formulário para tratar sem fazer refresh da tela
+            event.preventDefault ();
+
+            // Obtem os dados do formulário
+            let login  = document.getElementById('edit_login').value;
+            let nome   = document.getElementById('edit_nome').value;
+            let email  = document.getElementById('edit_email').value;
+            let senha  = document.getElementById('edit_senha').value;
+            let senha2 = document.getElementById('edit_senha2').value;
+            if (senha != senha2) {
+                alert ('As senhas informadas não conferem.');
+                return
+            }
+
+            
+            // Adiciona o usuário no banco de dados
+            changeUser(login, senha, nome, email);
+            
+            alert ('Alterações salvo com sucesso.');
+
+            // Oculta a div modal do login
+            //document.getElementById ('loginModal').style.display = 'none';
+            
+            cont++;
+        }
+        // Associar salvamento ao botao
+        document.getElementById ('btn_salvar2').addEventListener ('click', editaLogin);   
+        document.getElementById ('btn_salvar2').addEventListener ('click', () => window.location.href = '../home.html');       
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+</html>
