@@ -182,7 +182,7 @@ Requisitos não funcionais:
 > 
 > **Projeto Wireframa**:
 > 
-> ![Exemplo de Wireframe](images/wireframe.png)
+> !![image](https://user-images.githubusercontent.com/44738000/177382601-5b88431f-9661-4d3c-bfc9-4e150d21b2bf.png)
 
 
 # Metodologia
