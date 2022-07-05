@@ -39,7 +39,6 @@ Curso que ajuda na formação de um profissional muito mais completo e que possa
   - [Divisão de Papéis](#divisão-de-papéis)
   - [Ferramentas](#ferramentas)
   - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
 - [Projeto da Solução](#projeto-da-solução)
   - [Tecnologias Utilizadas](#tecnologias-utilizadas)
   - [Arquitetura da solução](#arquitetura-da-solução)
@@ -168,13 +167,13 @@ Requisitos não funcionais:
 ## UserFlow
 
 > Fluxo de usuário (User Flow) do nosso App, no qual o usuário tem que efetuar o login caso nao tenha uma conta cadastrar-se.
-> Após logar o usuário pode escolher entre temas na página Home, como plataformas de streaming e lançamentos.
-> O usuário pode pesquisar por atores ou filmes  na nossa aba de pesquisa, alem de abrir mais informações sobre o filme escolhido.
+> Após logar o usuário pode escolher entre temas na página Home, como populares e lançamentos e entrar nos detalhes do filme.
+> O usuário pode pesquisar por filmes na nossa aba de pesquisa, alem de abrir mais informações sobre o filme escolhido.
 >
 
 > **Userflow do App**:
 > 
-> ![Userflow](images/Userflow.png)
+> ![image](https://user-images.githubusercontent.com/44738000/177381617-c12ce994-650e-4981-8d2f-3de9153a778e.png)
 
 
 ## Wireframes
