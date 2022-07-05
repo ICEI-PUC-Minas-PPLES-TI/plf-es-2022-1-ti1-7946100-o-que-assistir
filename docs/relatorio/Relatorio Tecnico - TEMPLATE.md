@@ -258,13 +258,16 @@ Foi utilizado sessionStorage para autenticação, localStorage para salvar dados
 ## Plano de Testes
 
 ### Teste 1 :
-- Testar a funcionalidade de login
+- Testar a funcionalidade de login  
+
 ![image](https://user-images.githubusercontent.com/44738000/177059007-df475517-fc57-4fe0-9542-a959705f0768.png)
 ### Teste 2:
-- Testar funcionalidade de cadastro
+- Testar funcionalidade de cadastro  
+
 ![image](https://user-images.githubusercontent.com/44738000/177059078-a7f089e6-79a6-4e06-8730-e36bc2233077.png)
 ### Teste 3:
-- Testar funcionalidade de editar usuário
+- Testar funcionalidade de editar usuário  
+
 ![image](https://user-images.githubusercontent.com/44738000/177059096-e7e4e16c-bd46-46cb-a8ad-16d2ef3c688c.png)
 ### Teste 4:
 - Testar funcionalidade de mostrar página de detalhes
