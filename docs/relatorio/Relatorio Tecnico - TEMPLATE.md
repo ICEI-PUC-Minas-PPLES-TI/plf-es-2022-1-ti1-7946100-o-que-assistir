@@ -280,11 +280,6 @@ Foram testadas todas as telas, os pontos que tiveram mais vulnerabilidades foram
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20is%20a%20legacy%20Git,software%20development%20and%20DevOps%20practices
+https://www.infoescola.com/engenharia-de-software/analise-de-requisitos/#:~:text=A%20An%C3%A1lise%20de%20Requisitos%20ou,problema%20e%20alcan%C3%A7ar%20seus%20objetivos
+https://inovacaosebraeminas.com.br/conheca-o-mapa-da-empatia/
