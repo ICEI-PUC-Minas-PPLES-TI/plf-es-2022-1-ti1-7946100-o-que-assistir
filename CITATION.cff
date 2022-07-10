@@ -1,0 +1,32 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: O Que Assistir (WhatWatch)
+authors:
+  - family-names: Perlatto Lotti Garcia
+    given-names: Lucas
+  - family-names: Ricci Perlatto
+    given-names: Victor
+  - family-names: Miguel Quintão Magalhães
+    given-names: José
+  - family-names: Viniccius Souza de Freitas
+    given-names: Marcus
+  - family-names: Aguilar Araújo Dalmeida
+    given-names: Marcelo
+  - family-names: Marques Sousa Leal
+    given-names: Samuel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro 
+    given-names: Rommel 
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália 
+keywords:
+  - Filmes
+  - Séries
+  - O que assistir
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-o-que-assistir
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-10
